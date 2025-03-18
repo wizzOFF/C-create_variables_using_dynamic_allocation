@@ -18,6 +18,7 @@ int main(int argc, char *argv[])
 */
 
 void* malloc(size_t nombreOctetsNecessaires);
+void free(void* pointeur);
 
 int main(int argc, char *argv[])
 {
